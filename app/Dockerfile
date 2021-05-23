@@ -7,4 +7,6 @@ ENV LANGUAGE=en_US:
 
 COPY ./requirements.txt /tmp/requirements.txt
 
-RUN pip install -r /tmp/requirements.txt
+RUN \
+  pip install -r /tmp/requirements.txt && \
+  apt update && apt install -y vim
