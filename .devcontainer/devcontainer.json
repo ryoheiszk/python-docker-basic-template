@@ -6,7 +6,7 @@
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 	"extensions": [
-    "ms-python.python",
+		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"njpwerner.autodocstring",
 		"streetsidesoftware.code-spell-checker",
